@@ -10,7 +10,7 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
-    private static final String EXTRA_MESSAGE = "com.example.android.twoactivities.extra.MESSAGE";
+    public static final String EXTRA_MESSAGE = "com.example.android.twoactivities.extra.MESSAGE";
 
     private EditText mMessageEditText;
 
